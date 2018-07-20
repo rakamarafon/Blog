@@ -118,18 +118,18 @@ body {
     border-radius: 60px;
 }
 
-.com {
+.last-comment .com {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.commentator{
+.com .commentator{
   grid-column: 2;
   grid-row: 1;
   display: flex;
   flex-direction: column;
 }
 
-.commentator p {
+.com .commentator p {
     margin-top: -15px;
 }
