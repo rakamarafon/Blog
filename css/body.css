@@ -115,9 +115,21 @@ body {
     width: 50px;
     height: 50px;
     overflow: hidden;
+    border-radius: 60px;
 }
 
-.last-comment{
-    display: inline-flex;       
-    
+.com {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.commentator{
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.commentator p {
+    margin-top: -15px;
 }
