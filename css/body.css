@@ -5,22 +5,41 @@ body {
 .main-wrp {
     display: grid;
     grid-template-columns: 1fr 250px;
-    grid-template-rows: 100px 100px;
     grid-gap: 10px;
 }
 
-.post a{
-    max-width: 300px;
-    max-height: 300px;
+.content-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.foto {
+.post {
+    min-width: 300px;
+}
+
+.post img{
+ /*   max-width: 300px;
+    max-height: 300px; */
+    object-fit: cover;
+}
+
+.aside{
     padding-left: 35px;
+}
+.foto {
     width: 200px;
     height: 200px;
+    overflow: hidden;
 }
 
 .foto img{
     width: 100%;
     height: auto;
+}
+
+.name {
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    text-align: center;
 }
