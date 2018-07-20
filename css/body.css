@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: azure;    
 }
 
 .main-wrp {
@@ -15,17 +15,40 @@ body {
 
 .post {
     min-width: 300px;
+    max-width: 600px;
 }
+
+.image{
+    overflow: hidden;
+}
+
+.image img {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    }
+    
+   .image img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    }
 
 .post img{
  /*   max-width: 300px;
     max-height: 300px; */
     object-fit: cover;
+    overflow: hidden;
 }
 
 .aside{
     padding-left: 35px;
 }
+
+.aside-social i{
+    margin-left: 20px;
+}
+
 .foto {
     width: 200px;
     height: 200px;

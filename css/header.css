@@ -59,7 +59,7 @@ h1 {
 }
 
 .social i {
- margin-left: 5px;
+ margin-left: 10px;
 }
 
 nav {
@@ -70,18 +70,3 @@ nav {
     color: blue;
 }
 
-.social #tube:hover{
-    color:red;
-}
-.social #insta:hover{
-    color:crimson;
-}
-.social #twitt:hover{
-    color: mediumblue;
-}
-.social #fb:hover{
-    color: blue;
-}
-.social #linkedin:hover{
-    color: blue;
-}
