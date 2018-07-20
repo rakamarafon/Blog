@@ -23,7 +23,7 @@ body {
     transition: 0.3s;
 }
 
-.container{
+.post .container{
     padding: 2px 16px;
 }
 .post:hover{
