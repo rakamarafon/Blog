@@ -34,6 +34,9 @@
         padding-left: 70%;
     }    
 
+    .orient {
+        display: none;
+    }
     /*menu*/
 nav {
     display: block;
