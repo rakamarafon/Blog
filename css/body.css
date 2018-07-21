@@ -71,7 +71,8 @@ body {
 }
 .post-time{
     text-align: right;
-    padding-right: 20%;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .post-rat{
