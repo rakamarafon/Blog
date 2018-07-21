@@ -22,6 +22,15 @@
 .foto{
     margin-top: 10px;
 }
+
+.aside-social{
+    text-align: center;
+}
+
+.search-input{
+    width: 95%;
+}
+
 .footer{
     grid-row: 3;
 }
