@@ -145,33 +145,47 @@ body {
 .subscribe-info {
     display: block;
     margin: 0 auto;
-    text-align: left; 
+    text-align: center; 
     width: 90%; 
+    height: 50px;
     margin-bottom: 10px;  
+    border-radius: 60px;
 }
 
 .subscribe-button {
     display: block;
     margin: 0 auto;
     text-align: center;
+    border: none;
     width: 92%; 
+    height: 50px;
+    font-size: 20px;
     margin-top: 10px;
+    background-color: dodgerblue;
+    border-radius: 60px;
+}
+
+.subscribe-button:hover{
+    background-color: green;
 }
 
 .aside-search{
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 25px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .search-input{
-    margin: 0 auto;
     text-align: left;
-    width: 85%; 
-    margin-top: 20px;
-    position: relative;
+    height: 50px;
+    grid-column: 1;
+    border-radius: 60px;
 }
 
 .search-btn{
-   left: 0;
+   border: none;
+   grid-column: 2;
 }
 
 .aside-tag {
