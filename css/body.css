@@ -124,6 +124,14 @@ body {
     width: 200px;
     height: 200px;
     overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .foto img{
@@ -146,6 +154,7 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center; 
+    outline: none;
     width: 90%; 
     height: 50px;
     margin-bottom: 10px;  
@@ -157,8 +166,8 @@ body {
     margin: 0 auto;
     text-align: center;
     border: none;
-    width: 92%; 
-    height: 50px;
+    width: 90%; 
+    height: 52px;
     font-size: 20px;
     margin-top: 10px;
     background-color: dodgerblue;
@@ -170,17 +179,17 @@ body {
 }
 
 .aside-search{
-    display: grid;
-    grid-template-columns: 1fr 25px;
     margin-top: 25px;
     margin-left: 25px;
 }
 
 .search-input{
-    text-align: left;
+    text-align: center;
+    width: 90%;
     height: 50px;
-    grid-column: 1;
+    outline: none;
     border-radius: 60px;
+    
 }
 
 .search-btn{

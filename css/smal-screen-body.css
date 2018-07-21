@@ -3,6 +3,7 @@
 .main-wrp {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr minmax(600px, 1200px) 100px;
     grid-gap: 10px;
 }
 
@@ -10,7 +11,18 @@
     margin-left: 30px;
 }
 
+.content-main{
+  grid-row: 1;
+}
+
 .aside {
-    display: none;
+   grid-row: 2; 
+}
+
+.foto{
+    margin-top: 10px;
+}
+.footer{
+    grid-row: 3;
 }
 }
